@@ -58,7 +58,7 @@ class QuotesSpider(scrapy.Spider):
     """
 
     # Define Attributes
-    name = "quotes-spider"
+    name = "eeoc-spider"
     results = {'title': []}
     start_urls = [
         "http://quotes.toscrape.com/page/1/",
